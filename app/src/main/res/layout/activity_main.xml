@@ -37,7 +37,7 @@
             android:id="@+id/menuButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Your Weeks Menu"
+            android:text="My Weeks Menu"
             android:textSize="34sp"
             tools:text="Menu" />
 
@@ -56,6 +56,22 @@
             android:text="Shopping List"
             android:textSize="34sp"
             tools:text="Shopping List" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Cupboards"
+            android:textSize="34sp"
+            tools:text="My Cupboards" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Suggestions"
+            android:textSize="34sp"
+            tools:text="Meal Suggestions" />
 
         <Button
             android:id="@+id/settingsButton"
