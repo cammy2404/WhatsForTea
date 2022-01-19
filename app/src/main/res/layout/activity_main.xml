@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:text="My Weeks Menu"
             android:textSize="34sp"
-            tools:text="Menu" />
+            tools:text="My Weeks Menu" />
 
         <Button
             android:id="@+id/recipesButton"

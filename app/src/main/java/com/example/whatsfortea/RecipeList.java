@@ -2,7 +2,9 @@ package com.example.whatsfortea;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -30,6 +32,7 @@ public class RecipeList extends AppCompatActivity {
         parent.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         parent.setOrientation(LinearLayout.VERTICAL);
         parent.setPadding(0, 0, 0, 32);
+        parent.setBackgroundColor(Color.GRAY);
 
         LinearLayout header = new LinearLayout(this);
         header.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
@@ -54,10 +57,16 @@ public class RecipeList extends AppCompatActivity {
         recipeSummary.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         parent.addView(recipeSummary);
 
-        Button newBtn = new Button(this);
-        newBtn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        newBtn.setText("View Recipe");
-        parent.addView(newBtn);
+        Button viewRecipeBtn = new Button(this);
+        viewRecipeBtn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        viewRecipeBtn.setText("View Recipe");
+        viewRecipeBtn.setTextSize(18);
+        parent.addView(viewRecipeBtn);
+
+        Button addRecipeToMenuBtn = new Button(this);
+        addRecipeToMenuBtn.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        addRecipeToMenuBtn.setText("Add this to my menu");
+        parent.addView(addRecipeToMenuBtn);
 
         LinearLayout itemList = (LinearLayout)findViewById(R.id.itemList);
         itemList.addView(parent);
