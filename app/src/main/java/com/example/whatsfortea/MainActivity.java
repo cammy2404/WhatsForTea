@@ -15,10 +15,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btn_recipes = (Button)findViewById(R.id.recipesButton);
-
         btn_recipes.setOnClickListener( new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, RecipeList.class));
+            }
+        });
+
+        Button btn_cupboards = (Button)findViewById(R.id.myCupboardsButton);
+        btn_cupboards.setOnClickListener( new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MyCupboards.class));
             }
         });
     }

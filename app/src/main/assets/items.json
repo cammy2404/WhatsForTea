@@ -1,0 +1,113 @@
+{
+  "cupboard": [
+    {
+      "name": "Pasta",
+      "quantity": "500g",
+      "price": "1.50",
+      "summary": "Pasta is pretty dang great",
+      "shop": [
+        {
+          "shopName": "Lidl"
+        },
+        {
+          "shopName": "Tesco"
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "quantity": "8",
+      "price": "1.90",
+      "summary": "Can be used for lunch or for some yummy fajitas",
+      "shop": [
+        {
+          "shopName": "Tesco"
+        }
+      ]
+    },
+    {
+      "name": "Bread",
+      "quantity": "1",
+      "price": "2.50",
+      "summary": "Bread is great, but cook it again and you get toast! Two for one I would say!",
+      "shop": [
+        {
+          "shopName": "Lidl"
+        }
+      ]
+    },
+    {
+      "name": "Chicken Breast",
+      "quantity": "4",
+      "price": "4.50",
+      "summary": "Look at all those chickens",
+      "shop": [
+        {
+          "shopName": "Lidl"
+        },
+        {
+          "shopName": "Tesco"
+        }
+      ]
+    }
+  ],
+  "fridge": [
+    {
+      "name": "Butter",
+      "quantity": "1",
+      "price": "2.50",
+      "summary": "Gotta have that butter for that bread (or some toast!)",
+      "shop": [
+        {
+          "shopName": "Lidl"
+        }
+      ]
+    },
+    {
+      "name": "Jam",
+      "quantity": "1",
+      "price": "2.50",
+      "summary": "Stick it on a bagel and it'll be amazing",
+      "shop": [
+        {
+          "shopName": "Lidl"
+        }
+      ]
+    },
+    {
+      "name": "Ham",
+      "quantity": "250g",
+      "price": "1.49",
+      "summary": "I don't like green egs but I do like ham",
+      "shop": [
+        {
+          "shopName": "Lidl"
+        }
+      ]
+    }
+  ],
+  "freezer": [
+    {
+      "name": "Sweet Potato Fries",
+      "quantity": "500g",
+      "price": "0.99",
+      "summary": "Take some normal potato fries, and then make them sweet, BAM, sweet potato fries",
+      "shop": [
+        {
+          "shopName": "Lidl"
+        }
+      ]
+    },
+    {
+      "name": "Ice Cream",
+      "quantity": "500g",
+      "price": "2.50",
+      "summary": "Need a cry? Add some ice cream to the mix and it'll make most things better again",
+      "shop": [
+        {
+          "shopName": "Lidl"
+        }
+      ]
+    }
+  ]
+}

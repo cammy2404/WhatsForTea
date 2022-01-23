@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatsForTea">
         <activity
+            android:name=".viewRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".MyCupboards"
+            android:exported="false" />
+        <activity
             android:name=".RecipeList"
             android:exported="false" />
         <activity

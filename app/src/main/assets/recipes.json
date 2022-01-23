@@ -1,0 +1,87 @@
+{
+  "recipes": [
+    {
+      "name": "Bread",
+      "description": "A good recipe for pizza dough, breadsticks, doughballs, flatbread or just a loaf",
+      "ingredients": [
+        {
+          "name": "Bread Flour",
+          "quantity": "650",
+          "units": "grams"
+        },
+        {
+          "name": "Dried Yeast",
+          "quantity": "7",
+          "units": "grams"
+        },
+        {
+          "name": "Salt",
+          "quantity": "2",
+          "units": "teaspoons"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": "25",
+          "units": "ml"
+        },
+        {
+          "name": "Milk",
+          "quantity": "50",
+          "units": "ml"
+        },
+        {
+          "name": "Water",
+          "quantity": "325",
+          "units": "ml"
+        }
+      ],
+      "steps": [
+        {
+          "name": "Step 1",
+          "description": "Mix the flour, yeast and salt together in a large bowl and stir in the olive oil and milk."
+        },
+        {
+          "name": "Step 2",
+          "description": "Warm the water and gradually add it in, mixing well to form a soft dough."
+        },
+        {
+          "name": "Step 3",
+          "description": "Turn the dough out onto a floured surface and knead for about 5 minutes, until smooth and elastic."
+        },
+        {
+          "name": "Step 4",
+          "description": "Transfer to a clean bowl, cover with a damp cloth or clingfilm and leave to rise for about 1.5 hours, until double in size"
+        },
+        {
+          "name": "Step 5",
+          "description": "When the dough has risen, knock it back, knead it again until smooth, roll it into a ball and set it aside for 30 minutes to 1 hour"
+        },
+        {
+          "name": "Step 6",
+          "description": "Preheat the oven to around 180"
+        },
+        {
+          "name": "Step 7",
+          "description": "Prepare your dough for baking and put in the oven for at least 10 minutes, after that you will need to check until it is done (this will depend on what you are making"
+        }
+      ]
+    },
+    {
+      "name": "Brownies",
+      "description": "Some yummy, gooey, chocolatey brownies",
+      "ingredients": [
+        {
+          "name": "",
+          "quantity": "",
+          "units": ""
+        }
+      ],
+      "steps": [
+        {
+          "name": "",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
